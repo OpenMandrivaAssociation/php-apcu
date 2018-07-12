@@ -7,7 +7,7 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Epoch:		1
-Version:	5.1.8
+Version:	5.1.12
 Release:	1
 Group:		Development/PHP
 License:	PHP License
@@ -63,7 +63,7 @@ cp %{SOURCE1} %{inifile}
 
 phpize
 
-%configure2_5x \
+%configure \
 	--enable-%{modname}=shared,%{_prefix} 
 %make
 
