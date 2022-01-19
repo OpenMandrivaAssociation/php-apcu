@@ -1,4 +1,2 @@
-removed_sources:
-  apcu-5.1.8.tgz: 95e4cddab0a0c130ad2b64183f661ad6c2daff33
 sources:
-  apcu-5.1.12.tgz: 7e5674e43797176a84ca4f573668be8de8924c7c
+  apcu-5.1.21.tgz: b27acf7e79f4682fef641216edfce0a11c85fa96

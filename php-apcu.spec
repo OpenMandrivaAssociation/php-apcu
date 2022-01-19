@@ -7,8 +7,8 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Epoch:		1
-Version:	5.1.12
-Release:	2
+Version:	5.1.21
+Release:	1
 Group:		Development/PHP
 License:	PHP License
 Url:		http://pecl.php.net/package/APCu
@@ -101,7 +101,7 @@ if [ "$1" = "0" ]; then
 fi
 
 %files
-%doc tests README.md INSTALL LICENSE NOTICE TECHNOTES.txt TODO
+%doc tests README.md LICENSE NOTICE TECHNOTES.txt
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/apcu.so
 %attr(0755,apache,apache) /var/lib/php-apc
