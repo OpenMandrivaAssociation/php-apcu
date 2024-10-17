@@ -11,7 +11,7 @@ Version:	5.1.21
 Release:	2
 Group:		Development/PHP
 License:	PHP License
-Url:		http://pecl.php.net/package/APCu
+Url:		https://pecl.php.net/package/APCu
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Source1:	apcu.ini
 Source2:        %{modname}-panel.conf
