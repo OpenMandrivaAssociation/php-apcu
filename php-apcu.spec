@@ -16,6 +16,11 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Source1:	apcu.ini
 Source2:        %{modname}-panel.conf
 Source3:        %{modname}.conf.php
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  php-devel >= 3:5.2.0
 Conflicts:	php-afterburner
 Conflicts:	php-mmcache
