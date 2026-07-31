@@ -7,8 +7,8 @@
 Summary:	The %{realname} module for PHP
 Name:		php-%{modname}
 Epoch:		1
-Version:	5.1.21
-Release:	2
+Version:	5.1.28
+Release:	1
 Group:		Development/PHP
 License:	PHP License
 Url:		https://pecl.php.net/package/APCu
